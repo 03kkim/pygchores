@@ -1,1 +1,11 @@
-<a href="{%url 'login:redirect'%}">PENIS</a>
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'login/index.css' %}">
+<body>
+  <div class="Right">
+    <a href="{%url 'login:redirect'%}">
+      <img src="static/login/login.png" alt="No Image Found" />
+    </a>
+  </div>
+</body>
