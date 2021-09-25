@@ -5,4 +5,4 @@ from django.template import loader
 # Create your views here.
 def main(request):
     template = loader.get_template('login/index.html')
-    return HttpResponse(template.render(context))
+    return render(request, 'login/index.html')
