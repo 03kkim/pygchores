@@ -1,0 +1,923 @@
+.websiteBody{
+  margin: 0;
+}@media screen and (min-width:0px) and (max-width:900px) {
+.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Sign-Up-Page{
+  position:relative;
+  z-index:24;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:575px;
+  min-width:200px;
+  max-width:573px;
+  margin:auto;
+  background-color:rgba(94, 102, 105, 1);
+  overflow:hidden;
+}
+.Sign-Up-Page-outer{
+  pointer-events:none;
+  z-index:24;
+}
+.Sign-Up{
+  position:relative;
+  z-index:25;
+  pointer-events:none;
+  margin-left:58px;
+  width:457px;
+  min-width:457px;
+  margin-top:101px;
+  margin-bottom:421px;
+  min-height:53px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:96px;
+  line-height:115.20000457763672px;
+  text-shadow:0px 11px 4px rgba(0, 0, 0, 0.25);
+}
+.Sign-Up-outer{
+  pointer-events:none;
+  z-index:25;
+  position:relative;
+  display:flex;
+}
+.Username-{
+  position:relative;
+  z-index:26;
+  pointer-events:none;
+  margin-left:81px;
+  width:412px;
+  min-width:412px;
+  margin-top:-377px;
+  margin-bottom:348px;
+  min-height:29px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Username--outer{
+  pointer-events:none;
+  z-index:26;
+  position:relative;
+  display:flex;
+}
+.Rectangle-2{
+  position:relative;
+  z-index:29;
+  pointer-events:none;
+  margin-left:61px;
+  width:451px;
+  min-width:451px;
+  height:43px;
+  margin-top:-346px;
+  margin-bottom:303px;
+  min-height:43px;
+  content:url(assets/images/Rectangle_2.png);
+}
+.Rectangle-2-outer{
+  pointer-events:none;
+  z-index:29;
+  position:relative;
+  display:flex;
+}
+.Password-{
+  position:relative;
+  z-index:27;
+  pointer-events:none;
+  margin-left:81px;
+  width:412px;
+  min-width:412px;
+  margin-top:-299px;
+  margin-bottom:270px;
+  min-height:29px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Password--outer{
+  pointer-events:none;
+  z-index:27;
+  position:relative;
+  display:flex;
+}
+.Rectangle-3{
+  position:relative;
+  z-index:31;
+  pointer-events:none;
+  margin-left:61px;
+  width:451px;
+  min-width:451px;
+  height:43px;
+  margin-top:-267px;
+  margin-bottom:224px;
+  min-height:43px;
+  content:url(assets/images/Rectangle_3.png);
+}
+.Rectangle-3-outer{
+  pointer-events:none;
+  z-index:31;
+  position:relative;
+  display:flex;
+}
+.Confirm-Password-{
+  position:relative;
+  z-index:28;
+  pointer-events:none;
+  margin-left:81px;
+  width:412px;
+  min-width:412px;
+  margin-top:-221px;
+  margin-bottom:192px;
+  min-height:29px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Confirm-Password--outer{
+  pointer-events:none;
+  z-index:28;
+  position:relative;
+  display:flex;
+}
+.Rectangle-4{
+  position:relative;
+  z-index:30;
+  pointer-events:none;
+  margin-left:61px;
+  width:451px;
+  min-width:451px;
+  height:43px;
+  margin-top:-188px;
+  margin-bottom:145px;
+  min-height:43px;
+  content:url(assets/images/Rectangle_4.png);
+}
+.Rectangle-4-outer{
+  pointer-events:none;
+  z-index:30;
+  position:relative;
+  display:flex;
+}
+.Group-3{
+  position:relative;
+  z-index:32;
+  pointer-events:none;
+  margin-left:163px;
+  width:248px;
+  min-width:248px;
+  height:53px;
+  margin-top:-109px;
+  margin-bottom:56px;
+  min-height:53px;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  visibility:hidden;
+}
+.Group-3-outer{
+  pointer-events:none;
+  z-index:32;
+  position:relative;
+  display:flex;
+}
+.Submit{
+  position:relative;
+  z-index:34;
+  pointer-events:none;
+  margin-left:0px;
+  width:248px;
+  min-width:248px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:53px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Submit-outer{
+  pointer-events:none;
+  z-index:34;
+  position:relative;
+  display:flex;
+}
+.Rectangle-5{
+  position:relative;
+  z-index:33;
+  pointer-events:none;
+  margin-left:-1px;
+  width:253px;
+  min-width:253px;
+  height:67px;
+  margin-top:-50px;
+  margin-bottom:-17px;
+  min-height:67px;
+  content:url(assets/images/Rectangle_5.png);
+}
+.Rectangle-5-outer{
+  pointer-events:none;
+  z-index:33;
+  position:relative;
+  display:flex;
+}
+.Landing-page{
+  display: none;
+}
+.Landing-page-outer{
+  display: none;
+}
+.Frame-3{
+  display: none;
+}
+.Frame-3-outer{
+  display: none;
+}
+.PygChores{
+  display: none;
+}
+.PygChores-outer{
+  display: none;
+}
+.Vector-1{
+  display: none;
+}
+.Vector-1-outer{
+  display: none;
+}
+.Frame-4{
+  display: none;
+}
+.Frame-4-outer{
+  display: none;
+}
+.pig{
+  display: none;
+}
+.pig-outer{
+  display: none;
+}
+.Ellipse-1{
+  display: none;
+}
+.Ellipse-1-outer{
+  display: none;
+}
+.Vector-2{
+  display: none;
+}
+.Vector-2-outer{
+  display: none;
+}
+.Vector-3{
+  display: none;
+}
+.Vector-3-outer{
+  display: none;
+}
+.Ellipse-4{
+  display: none;
+}
+.Ellipse-4-outer{
+  display: none;
+}
+.Ellipse-3{
+  display: none;
+}
+.Ellipse-3-outer{
+  display: none;
+}
+.Ellipse-2{
+  display: none;
+}
+.Ellipse-2-outer{
+  display: none;
+}
+.Ellipse-6{
+  display: none;
+}
+.Ellipse-6-outer{
+  display: none;
+}
+.Ellipse-5{
+  display: none;
+}
+.Ellipse-5-outer{
+  display: none;
+}
+.Frame-1{
+  display: none;
+}
+.Frame-1-outer{
+  display: none;
+}
+.sign-up{
+  display: none;
+}
+.sign-up-outer{
+  display: none;
+}
+.Sign-Up-1{
+  display: none;
+}
+.Sign-Up-1-outer{
+  display: none;
+}
+.Rectangle-1-1{
+  display: none;
+}
+.Rectangle-1-1-outer{
+  display: none;
+}
+.Frame-2{
+  display: none;
+}
+.Frame-2-outer{
+  display: none;
+}
+.log-in{
+  display: none;
+}
+.log-in-outer{
+  display: none;
+}
+.Log-in{
+  display: none;
+}
+.Log-in-outer{
+  display: none;
+}
+.Rectangle-1{
+  display: none;
+}
+.Rectangle-1-outer{
+  display: none;
+}
+}
+      
+@media screen and (min-width:900px) {
+.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Sign-Up-Page{
+  display: none;
+}
+.Sign-Up-Page-outer{
+  display: none;
+}
+.Sign-Up{
+  display: none;
+}
+.Sign-Up-outer{
+  display: none;
+}
+.Username-{
+  display: none;
+}
+.Username--outer{
+  display: none;
+}
+.Rectangle-2{
+  display: none;
+}
+.Rectangle-2-outer{
+  display: none;
+}
+.Password-{
+  display: none;
+}
+.Password--outer{
+  display: none;
+}
+.Rectangle-3{
+  display: none;
+}
+.Rectangle-3-outer{
+  display: none;
+}
+.Confirm-Password-{
+  display: none;
+}
+.Confirm-Password--outer{
+  display: none;
+}
+.Rectangle-4{
+  display: none;
+}
+.Rectangle-4-outer{
+  display: none;
+}
+.Group-3{
+  display: none;
+}
+.Group-3-outer{
+  display: none;
+}
+.Submit{
+  display: none;
+}
+.Submit-outer{
+  display: none;
+}
+.Rectangle-5{
+  display: none;
+}
+.Rectangle-5-outer{
+  display: none;
+}
+.Landing-page{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  opacity:0.8999999761581421;
+  width:100%;
+  margin-left:0;
+  height:1024px;
+  min-width:900px;
+  max-width:1440px;
+  margin:auto;
+  background-color:rgba(196, 196, 196, 1);
+  overflow:hidden;
+}
+.Landing-page-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Frame-3{
+  position:relative;
+  z-index:21;
+  pointer-events:none;
+  margin-left:0px;
+  width:820px;
+  min-width:820px;
+  height:214px;
+  margin-top:0px;
+  margin-bottom:810px;
+  min-height:214px;
+  overflow:hidden;
+}
+.Frame-3-outer{
+  pointer-events:none;
+  z-index:21;
+  position:relative;
+  display:flex;
+}
+.PygChores{
+  position:relative;
+  z-index:22;
+  pointer-events:none;
+  margin-left:0px;
+  width:820px;
+  min-width:820px;
+  margin-top:0px;
+  margin-bottom:26px;
+  min-height:188px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(23, 69, 115, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:144px;
+  line-height:172.8000030517578px;
+}
+.PygChores-outer{
+  pointer-events:none;
+  z-index:22;
+  position:relative;
+  display:flex;
+}
+.Vector-1{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:127px;
+  width:1313.5px;
+  min-width:1313.5px;
+  height:1024px;
+  margin-top:-1024px;
+  margin-bottom:0px;
+  min-height:1024px;
+  content:url(assets/images/Vector_1.png);
+}
+.Vector-1-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Frame-4{
+  position:relative;
+  z-index:23;
+  pointer-events:none;
+  margin-left:161px;
+  width:386px;
+  min-width:386px;
+  height:368px;
+  margin-top:-756px;
+  margin-bottom:388px;
+  min-height:368px;
+  overflow:hidden;
+}
+.Frame-4-outer{
+  pointer-events:none;
+  z-index:23;
+  position:relative;
+  display:flex;
+}
+.pig{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:168px;
+  width:378.96px;
+  min-width:378.96px;
+  height:364.02px;
+  margin-top:-752px;
+  margin-bottom:387.98px;
+  min-height:364.02px;
+}
+.pig-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Ellipse-1{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:0px;
+  width:378.96px;
+  min-width:378.96px;
+  height:364.02px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:364.02px;
+  content:url(assets/images/Ellipse_1.png);
+}
+.Ellipse-1-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Vector-2{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:50px;
+  width:63.16px;
+  min-width:63.16px;
+  height:62.06px;
+  margin-top:-298.02px;
+  margin-bottom:235.95999999999998px;
+  min-height:62.06px;
+  content:url(assets/images/Vector_2.png);
+}
+.Vector-2-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Vector-3{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:272px;
+  width:64.6px;
+  min-width:64.6px;
+  height:60.67px;
+  margin-top:-291.02px;
+  margin-bottom:230.34999999999997px;
+  min-height:60.67px;
+  content:url(assets/images/Vector_3.png);
+}
+.Vector-3-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Ellipse-4{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:229px;
+  width:39.73px;
+  min-width:39.73px;
+  height:38.16px;
+  margin-top:-207.01999999999998px;
+  margin-bottom:168.86px;
+  min-height:38.16px;
+  content:url(assets/images/Ellipse_4.png);
+}
+.Ellipse-4-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Ellipse-3{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:105px;
+  width:39.73px;
+  min-width:39.73px;
+  height:38.16px;
+  margin-top:-207.01999999999998px;
+  margin-bottom:168.86px;
+  min-height:38.16px;
+  content:url(assets/images/Ellipse_3.png);
+}
+.Ellipse-3-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Ellipse-2{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:83px;
+  width:213.93px;
+  min-width:213.93px;
+  height:99.81px;
+  margin-top:-139.01999999999998px;
+  margin-bottom:39.210000000000036px;
+  min-height:99.81px;
+  content:url(assets/images/Ellipse_2.png);
+}
+.Ellipse-2-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.Ellipse-6{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:217px;
+  width:24.45px;
+  min-width:24.45px;
+  height:48.44px;
+  margin-top:-114.01999999999998px;
+  margin-bottom:65.57999999999993px;
+  min-height:48.44px;
+  content:url(assets/images/Ellipse_6.png);
+}
+.Ellipse-6-outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.Ellipse-5{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:139px;
+  width:24.45px;
+  min-width:24.45px;
+  height:48.44px;
+  margin-top:-114.01999999999998px;
+  margin-bottom:65.57999999999993px;
+  min-height:48.44px;
+  content:url(assets/images/Ellipse_5.png);
+}
+.Ellipse-5-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.Frame-1{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:884px;
+  width:359px;
+  min-width:359px;
+  height:91px;
+  margin-top:-707px;
+  margin-bottom:616px;
+  min-height:91px;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4000000059604645));
+  overflow:hidden;
+}
+.Frame-1-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.sign-up{
+  position:relative;
+  z-index:14;
+  pointer-events:none;
+  margin-left:0px;
+  width:359px;
+  min-width:359px;
+  height:91px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:91px;
+}
+.sign-up-outer{
+  pointer-events:none;
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.Sign-Up-1{
+  position:relative;
+  z-index:16;
+  pointer-events:none;
+  margin-left:0px;
+  width:359px;
+  min-width:359px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:91px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(232, 233, 234, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Sign-Up-1-outer{
+  pointer-events:none;
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.Rectangle-1-1{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:-1.5699999999999363px;
+  width:365.43px;
+  height:97.28px;
+  margin-top:10.279999999999973px;
+  content:url(assets/images/Rectangle_1_1.png);
+}
+.Rectangle-1-1-outer{
+  pointer-events:none;
+  z-index:15;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Frame-2{
+  position:relative;
+  z-index:17;
+  pointer-events:none;
+  margin-left:882px;
+  width:361px;
+  min-width:361px;
+  height:82px;
+  margin-top:-485px;
+  margin-bottom:403px;
+  min-height:82px;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4000000059604645));
+  overflow:hidden;
+}
+.Frame-2-outer{
+  pointer-events:none;
+  z-index:17;
+  position:relative;
+  display:flex;
+}
+.log-in{
+  position:relative;
+  z-index:18;
+  pointer-events:none;
+  margin-left:0px;
+  width:361px;
+  min-width:361px;
+  height:82px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:82px;
+}
+.log-in-outer{
+  pointer-events:none;
+  z-index:18;
+  position:relative;
+  display:flex;
+}
+.Log-in{
+  position:relative;
+  z-index:20;
+  pointer-events:none;
+  margin-left:0px;
+  width:359.42px;
+  min-width:359.42px;
+  margin-top:0px;
+  margin-bottom:1.5199999999999818px;
+  min-height:80.48px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 51, 102, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Log-in-outer{
+  pointer-events:none;
+  z-index:20;
+  position:relative;
+  display:flex;
+}
+.Rectangle-1{
+  position:relative;
+  z-index:19;
+  pointer-events:none;
+  margin-left:2.849999999999909px;
+  width:365.85px;
+  height:86.96px;
+  margin-top:10.960000000000036px;
+  content:url(assets/images/Rectangle_1.png);
+}
+.Rectangle-1-outer{
+  pointer-events:none;
+  z-index:19;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+}
+      
