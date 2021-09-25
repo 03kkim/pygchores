@@ -9,15 +9,28 @@
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<div class="container">
-  <h2>Log In</h2>
-  <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button class="btn waves-effect waves-light" type="submit" name="action">Log In
-      <i class="material-icons right">send</i>
-    </button>
-</div>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">PygChores</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="">Calendar</a></li>
+        <li><a href="">To-Do's</a></li>
+        <!-- <li><a class="waves-effect waves-light btn">Log Out</a></li> -->
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    
+    <h2>Log In</h2>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button class="btn waves-effect waves-light" type="submit" name="action">Log In
+        <i class="material-icons right">send</i>
+      </button>
+  </div>
 
 
-</form>
+  </form>
+</body>
