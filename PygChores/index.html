@@ -18,25 +18,26 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-transparent w3-display-topright"></i>
     <h4 style="color:white">Add New Chore:</h4>
     <hr style="margin-top:-10px">
-    <form action="/action_page.php" target="_blank" style="margin-top: -15px;color:white">
+    <form action="/action_page.php" target="_blank" style="margin-top: -15px;color:white; " method="post">
       <p><label><i class="sticky-note"></i>Chore: </label></p>
-      <input class="w3-input w3-border" type="text" placeholder="Ex. Laundry" name="Chore" required>          
+      <input class="w3-input w3-border" style = "border-radius: 25px;box-shadow: 5px 5px 12px #000000;" type="text" placeholder="Ex. Laundry" name="Chore" required>          
       <p><label><i class="clock-o"></i>Time to Complete (hrs):</label></p>
-      <input class="w3-input w3-border" type="number" placeholder="Ex. 1.5" name="TimeToComplete" required>         
-      <p><label><i class="fa fa-calender-o"></i> How Often (in days): </label></p>
-      <input class="w3-input w3-border" type="number" placeholder="Ex. 7" name="HowOften">              
-      <p><button class="w3-button w3-block w3-orange w3-center-align" type="submit">Add Chore</button></p>
+      <input class="w3-input w3-border" style = "border-radius: 25px;box-shadow: 5px 5px 12px #000000;" type="number" placeholder="Ex. 1.5" name="TimeToComplete" required>         
+      <p><label><i class="fa fa-calender-o"></i> How Often (in days per week): </label></p>
+      <input class="w3-input w3-border" style = "border-radius: 25px;box-shadow: 5px 5px 12px #000000;" type="number" placeholder="Ex. 7" name="HowOften" min=0 max =7>              
+      <p><button class="w3-button w3-block w3-orange w3-center-align" style = "border-radius: 25px;box-shadow: 5px 5px 12px #000000;" type="submit">Add Chore</button></p>
     </form>
     <h4 style="color:white">Add Manually:</h4>
     <hr style="margin-top:-10px">
-    <form action="/action_page.php" target="_blank" style="margin-top: -15px; color:white">
+    <!-- action must be specificied for form -->
+    <form action="/action_page.php" target="_blank" style="margin-top: -15px; color:white; border-radius: 25px;" action = {% url '/home/service/tests' %} method="post">
         <p><label><i class="sticky-note"></i>Chore: </label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Ex. Laundry" name="Chore" required>          
+        <input class="w3-input w3-border" style = "border-radius: 25px;box-shadow: 5px 5px 12px #000000;"type="text" placeholder="Ex. Laundry" name="Chore" required>          
         <p><label><i class="clock-o"></i>Time to Complete (hrs):</label></p>
-        <input class="w3-input w3-border" type="number" placeholder="Ex. 1.5" name="TimeToComplete" required>         
+        <input class="w3-input w3-border" style = "border-radius: 25px;box-shadow: 5px 5px 12px #000000;"type="number" placeholder="Ex. 1.5" name="TimeToComplete" required>         
         <p><label><i class="fa fa-calender-o"></i>Date/time: </label></p>
-        <input class="w3-input w3-border" type="datetime" placeholder="YYYY-MM-DD HH:MM" name="Date" >                 
-        <p><button class="w3-button w3-block w3-orange w3-center-align" type="submit">Add Chore</button></p>
+        <input class="w3-input w3-border" style = "border-radius: 25px;box-shadow: 5px 5px 12px #000000;"type="datetime" placeholder="YYYY-MM-DD HH:MM" name="Date" >                 
+        <p><button class="w3-button w3-block w3-orange w3-center-align" style = "border-radius: 25px;box-shadow: 5px 5px 12px #000000;"type="submit">Add Chore</button></p>
     </form>
   </div>
 </nav>
@@ -58,64 +59,30 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
   <!-- Slideshow Header -->
   <div class="w3-container" id="apartment" style="background-color:#5E6669;">
-    <h2 class="w3-text-orange">Dashboard</h2>
-    <!-- <div class="w3-display-container mySlides">
-    <img src="/w3images/livingroom.jpg" style="width:100%;margin-bottom:-6px">
-      <div class="w3-display-bottomleft w3-container w3-black">
-        <p>Living Room</p>
-      </div>
-    </div>
-    <div class="w3-display-container mySlides">
-    <img src="/w3images/diningroom.jpg" style="width:100%;margin-bottom:-6px">
-      <div class="w3-display-bottomleft w3-container w3-black">
-        <p>Dining Room</p>
-      </div>
-    </div>
-    <div class="w3-display-container mySlides">
-    <img src="/w3images/bedroom.jpg" style="width:100%;margin-bottom:-6px">
-      <div class="w3-display-bottomleft w3-container w3-black">
-        <p>Bedroom</p>
-      </div>
-    </div>
-    <div class="w3-display-container mySlides">
-    <img src="/w3images/livingroom2.jpg" style="width:100%;margin-bottom:-6px">
-      <div class="w3-display-bottomleft w3-container w3-black">
-        <p>Living Room II</p>
-      </div>
-    </div>
-  </div> -->
-  <!-- <div class="w3-row-padding w3-section">
-    <div class="w3-col s3">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="/w3images/livingroom.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)" title="Living room">
-    </div>
-    <div class="w3-col s3">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="/w3images/diningroom.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)" title="Dining room">
-    </div>
-    <div class="w3-col s3">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="/w3images/bedroom.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)" title="Bedroom">
-    </div>
-    <div class="w3-col s3">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="/w3images/livingroom2.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)" title="Second Living Room">
-    </div>
-  </div> -->
-
-  <div class="w3-container">
-    <h3><strong>Upcoming:</strong></h3>
-    <div class="w3-row w3-large">
-      <div class="w3-col s6">
-        <h4>Today:</h4>
-        <p>Laundry (2 hrs) 9/26/2021 10am(</p>
-        <p>Change Bedcovers 2</p>
-        <p>Bedrooms: 1</p>
-      </div>
-      <div class="w3-col s6">
-        <p><i class="fa fa-fw fa-clock-o"></i> Check In: After 3PM</p>
-        <p><i class="fa fa-fw fa-clock-o"></i> Check Out: 12PM</p>
-      </div>
-    </div>
-    <hr>
+    <h2 style="color:orange">Dashboard</h2>
     
-    <h4><strong>Amenities</strong></h4>
+
+    <div class="w3-container" style="background-color: aliceblue; border-radius: 25px;box-shadow: 5px 5px 12px #000000;margin: 25px;">
+      <h3><strong>Upcoming:</strong></h3>
+      <div class="w3-row w3-large">
+        <div class="w3-col s6" style="background-color:silver;border-radius: 25px;margin: 20px;width: 500px;text-align: center;box-shadow: 5px 5px 12px #000000;margin-left: 20px;">
+          <h4><strong>Today:</strong></h4>
+          <p>Change Bedcovers (30 min) 9/25/2021 10am</p>
+          <p>Laundry (2 hrs) 9/25/2021 1pm</p>
+        </div>
+        <div class="w3-col s6" style="background-color:silver;border-radius: 25px;margin: 20px;width: 500px;text-align: center;box-shadow: 5px 5px 12px #000000;margin-left: 20px;">
+          <h4><strong>Tomorrow:</strong></h4>
+          <p>Vaccum Room (30 min) 9/26/2021 6pm</p>
+        </div>
+        <div class="w3-col s6" style="background-color:silver;border-radius: 25px;margin: 20px;width: 500px;text-align: center;box-shadow: 5px 5px 12px #000000;margin-left: 20px;margin-bottom: 50px;">
+          <h4><strong>This Week:</strong></h4>
+          <p>Shop for groceries (1.5 hrs) 10/01/2021 6pm</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- <h4><strong>Amenities</strong></h4>
     <div class="w3-row w3-large">
       <div class="w3-col s6">
         <p><i class="fa fa-fw fa-shower"></i> Shower</p>
@@ -140,40 +107,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <p>Subscribe to receive updates on available dates and special offers.</p>
     <p><button class="w3-button w3-green w3-third" onclick="document.getElementById('subscribe').style.display='block'">Subscribe</button></p>
   </div>
-  <hr>
+  <hr> -->
   
   <!-- Contact -->
-  <div class="w3-container" id="contact">
-    <h2>Contact</h2>
-    <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
-    <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
-    <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
-    <p>Questions? Go ahead, ask them:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-    <button type="submit" class="w3-button w3-green w3-third">Send a Message</button>
-    </form>
-  </div>
-  
-  <footer class="w3-container w3-padding-16" style="margin-top:32px">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></footer>
-
-<!-- End page content -->
-</div>
-
-<!-- Subscribe Modal -->
-<div id="subscribe" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom w3-padding-large">
-    <div class="w3-container w3-white w3-center">
-      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-button w3-xlarge w3-right w3-transparent"></i>
-      <h2 class="w3-wide">SUBSCRIBE</h2>
-      <p>Join our mailing list to receive updates on available dates and special offers.</p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-padding-large w3-green w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    <div class="w3-container" id="contact">
+      <h2 style="color:orange">Calendar</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&src=bWFuYW5qMkBpbGxpbm9pcy5lZHU&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" style="box-shadow: 5px 5px 12px #000000; border:solid 1px #777" width="600" height="450" frameborder="0" scrolling="no"></iframe>
     </div>
   </div>
-</div>
 
 <script>
 // Script to open and close sidebar when on tablets and phones
