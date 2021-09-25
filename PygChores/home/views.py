@@ -4,5 +4,5 @@ from django.template import loader
 
 # Create your views here.
 def main(request):
-    return render(request, 'landing/test.html')
+    return render(request, 'home/events.html')
 # Create your views here.
