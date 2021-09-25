@@ -8,4 +8,10 @@
   const dp = new DayPilot.Calendar("dp");
   dp.viewType = "Week";
   dp.init();
+
+  function loadEvents() {
+    dp.events.load("backend_events.php");
+  }
+
+
 </script>

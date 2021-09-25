@@ -14,8 +14,11 @@ class FreeTime(models.Model):
 
 class ScheduledEvent(models.Model):
     name = models.CharField(max_length=200)
-    start_time = models.DateTimeField('start_time')
+    start_time = models.DateTimeField('start-time')
     end_time = models.DateTimeField('end-time')
+
+    def __str__(self):
+        return self.name
     #event_id = models.IntegerField()
 #this will be presented in the to-do list
 
