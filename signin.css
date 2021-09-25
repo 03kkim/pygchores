@@ -1,0 +1,265 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:575px;
+  min-width:200px;
+  max-width:573px;
+  margin:auto;
+  background-color:rgba(94, 102, 105, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Sign-Up{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:58px;
+  width:457px;
+  min-width:457px;
+  margin-top:25px;
+  margin-bottom:497px;
+  min-height:53px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:96px;
+  line-height:115.20000457763672px;
+  text-shadow:0px 11px 4px rgba(0, 0, 0, 0.25);
+}
+.Sign-Up-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Username-{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:81px;
+  width:412px;
+  min-width:412px;
+  margin-top:-490px;
+  margin-bottom:461px;
+  min-height:29px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Username--outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Rectangle-2{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:61px;
+  width:451px;
+  min-width:451px;
+  height:43px;
+  margin-top:-460px;
+  margin-bottom:417px;
+  min-height:43px;
+  content:url(assets/images/Rectangle_2.png);
+}
+.Rectangle-2-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Password-{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:81px;
+  width:412px;
+  min-width:412px;
+  margin-top:-415px;
+  margin-bottom:386px;
+  min-height:29px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Password--outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Rectangle-3{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:61px;
+  width:451px;
+  min-width:451px;
+  height:43px;
+  margin-top:-385px;
+  margin-bottom:342px;
+  min-height:43px;
+  content:url(assets/images/Rectangle_3.png);
+}
+.Rectangle-3-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Confirm-Password-{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:81px;
+  width:412px;
+  min-width:412px;
+  margin-top:-335px;
+  margin-bottom:306px;
+  min-height:29px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Confirm-Password--outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.Rectangle-4{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:61px;
+  width:451px;
+  min-width:451px;
+  height:43px;
+  margin-top:-305px;
+  margin-bottom:262px;
+  min-height:43px;
+  content:url(assets/images/Rectangle_4.png);
+}
+.Rectangle-4-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Group-3{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:163px;
+  width:248px;
+  min-width:248px;
+  height:53px;
+  margin-top:-235px;
+  margin-bottom:182px;
+  min-height:53px;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Group-3-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Submit{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:0px;
+  width:248px;
+  height:53px;
+  margin-top:8px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:100;
+  font-size:36px;
+  line-height:43.20000076293945px;
+}
+.Submit-outer{
+  pointer-events:none;
+  z-index:12;
+  justify-content:center;
+  position:absolute;
+  display:flex;
+  width:100%;
+  height:100%;
+  left:0;
+  top:0;
+  align-items:center;
+}
+.Rectangle-5{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:-1px;
+  width:253px;
+  min-width:253px;
+  height:67px;
+  margin-top:6px;
+  margin-bottom:-73px;
+  min-height:67px;
+  content:url(assets/images/Rectangle_5.png);
+}
+.Rectangle-5-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
